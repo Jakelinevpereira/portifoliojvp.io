@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Perfil</title>
+ <link rel="stylesheet" href="styles.css" />
+ <link rel="icon" href="../Exercicio_4/favicon.ico" />
+ <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+ <link rel="apple-touch-icon" sizes="180x180" href="../Exercicio_4/apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="../Exercicio_4/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="../Exercicio_4/favicon-16x16.png">
+ <link rel="manifest" href="../Exercicio_4/site.webmanifest">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+  
+</head>
+<body>
+
+  <header>
+    <!--Bloqueio da imagem por questão de segurança-->
+  <img src="foto.jpeg" alt="Minha foto" id="foto-perfil" oncontextmenu="return false" ondragstart="return false" onselectstart="return false" onmousedown="return false"/>
+
+    <h1>Jakeline Pereira</h1>
+    <p>Software Engineering Analyst | Java | JavaScript | CSS | Html | AWS Certified | Estudante de FullStack</p>
+    <button id="toggle-dark-mode">🌙 Dark Mode</button>
+  </header>
+
+  <nav>
+    <button id="menu-toggle" aria-label="Abrir menu">☰</button>
+    <a href="#sobre">Sobre mim</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#certificados">Certificações e Cursos</a>
+    <a href="#contato">Contato e Redes Sociais</a>
+
+  </nav>
+
+  <main>
+    <div>
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p>Sou Analista de Engenharia de Software na Accenture Brasil, com formação em Tecnologia da Informação pela PUCPR e MBA em Gestão do Esporte. 
+        Atuo em projetos de alta complexidade no setor de Telecom, utilizando Java, C, PL/SQL, SQL e JavaScript, com foco em sistemas de Billing, 
+        automação e integridade de dados. Tenho experiência em backend com Shell Script e estou em constante evolução técnica, atualmente cursando 
+        formação FullStack no programa MaisPraTi, com foco em JavaScript, HTML, CSS, Node.js e APIs REST. Valorizo colaboração, aprendizado contínuo 
+        e soluções sustentáveis em equipe.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+        <ul class="lista-habilidades">
+          <li><img src="../portifólio/html.png" alt="HTML"> HTML</li>
+          <li><img src="../portifólio/css.png" alt="CSS"> CSS3</li>
+          <li><img src="../portifólio/javascript.png" alt="JavaScript"> JavaScript</li>
+          <li><img src="../portifólio/java.png" alt="Java"> Java</li>
+          <li><img src="../portifólio/aws.png" alt="AWS"> AWS</li>
+        </ul>
+    </section>
+
+
+    <section id="certificados">
+      <h2>Certificações e Cursos</h2>
+      <article>
+        <ul>
+        <li>Curso de Java e Lógica de Programação</li>
+        <li>Curso de Extensão: Design para quem não é Designer</li>
+        <li>Curso de Extensão: Versionamento de Código</li>
+        <li>Arquitetura de Software & Design de Sistemas Modernos</li>
+        <li>Crie um site simples usando HTML, CSS e JavaScript</li>
+        <li>AWS Cloud Practitioner Essentials</li>
+        <li>Fundamentos do AWS Cloud Practitioner</li>
+      </ul>
+      </article>
+    </section>
+
+    <section id="contato">
+  <h2>Contato e Redes Sociais</h2>
+
+  <a href="mailto:jakvictorbb@gmail.com" target="_blank" rel="noopener noreferrer">
+    <i class="fas fa-envelope"></i> Gmail
+  </a><br>
+
+  <a href="https://github.com/Jakelinevpereira" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i> GitHub
+  </a><br>
+
+  <a href="https://www.linkedin.com/in/jakeline-pereira-488992a4/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a><br>
+
+  <a href="https://wa.me/5583999277167" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i> WhatsApp
+  </a>
+</section>
+
+  </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Feito por Jakeline Pereira</p>
+  </footer>
+<script src="../portifólio/script.js"></script>
+</body>
+</html>
